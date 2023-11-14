@@ -3,5 +3,20 @@
   gap: 1rem;
   border-radius: 0rem 0.75rem 0.75rem 0.75rem;
   background: #fff;
+  width: fit-content;
   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.08);
+  max-width: 75%;
+}
+.sent{
+border-radius: 0.75rem 0.75rem 0rem 0.75rem;
+background: #1C63D5;
+padding: 0.5rem;
+gap: 1rem;
+box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.08);
+width: fit-content;
+max-width: 75%;
+}
+.position-badg{
+  left: 20px;
+  top: -4px;
 }

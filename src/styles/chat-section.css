@@ -1,3 +1,10 @@
 .chat-div{
     min-height:71vh;
 }
+.text{
+    color: #B7B7B7;
+    font-size: 0.875rem;
+}
+.gap{
+    gap: 10px;
+}

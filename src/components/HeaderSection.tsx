@@ -6,14 +6,20 @@ import chat1 from "../assets/chatimg1.png"
 import chat2 from "../assets/chatimg2.png"
 import chat3 from "../assets/chatimg3.png"
 import chat4 from "../assets/chatimg4.png"
+import edit from "../assets/edit.svg"
 
 const HeaderSection = () => {
   return (
     <div className='border-bottom sticky-top bg-chat'>
     <div className=' mx-3 pt-5'>
+      <div className='d-flex justify-content-between'>
         <div className='d-flex text-nowrap justify-content-start'>
       <img src={back} alt="back" className='pe-3 mb-3' />
       <div className='trip'>Trip 1</div>
+        </div>
+      <div>
+        <img src={edit} alt=""/>
+      </div>
         </div>
       <div className='d-flex justify-content-start'>
         <div className='col-2 chat-img me-3'>
