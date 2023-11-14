@@ -1,6 +1,9 @@
 .App {
   text-align: center;
-  background: #FAF9F4;;
+  background: #FAF9F4;
+}
+.bg-chat{
+  background: #FAF9F4;
 }
 .cursor-pointer{
   cursor: pointer;

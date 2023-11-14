@@ -9,7 +9,7 @@ import chat4 from "../assets/chatimg4.png"
 
 const HeaderSection = () => {
   return (
-    <div className='border-bottom'>
+    <div className='border-bottom sticky-top bg-chat'>
     <div className=' mx-3 pt-5'>
         <div className='d-flex text-nowrap justify-content-start'>
       <img src={back} alt="back" className='pe-3 mb-3' />

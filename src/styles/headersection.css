@@ -1,50 +1,45 @@
-
-.trip{
-    color: #141E0D;
-font-size: 1.5rem;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+.trip {
+  color: #141e0d;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
-.chat-img{
-    height: 4rem;
-    width: 4rem;
+.chat-img {
+  height: 4rem;
+  width: 4rem;
 }
-.chatimg1{
-    border-radius:100% 0 0 0;
-    width: 1.625rem;
-height: 1.625rem;
-
+.chatimg1 {
+  border-radius: 100% 0 0 0;
+  width: 1.625rem;
+  height: 1.625rem;
 }
-.chatimg2{
-    border-radius: 0 100% 0 0;
-    width: 1.625rem;
-height: 1.625rem;
-
+.chatimg2 {
+  border-radius: 0 100% 0 0;
+  width: 1.625rem;
+  height: 1.625rem;
 }
-.chatimg3{
-    border-radius: 0 0 0 100%;
-    width: 1.625rem;
-height: 1.625rem;
-
+.chatimg3 {
+  border-radius: 0 0 0 100%;
+  width: 1.625rem;
+  height: 1.625rem;
 }
-.chatimg4{
-    border-radius: 0 0 100% 0;
-    width: 1.625rem;
-height: 1.625rem;
-
+.chatimg4 {
+  border-radius: 0 0 100% 0;
+  width: 1.625rem;
+  height: 1.625rem;
 }
-.light-text{
-    color: #606060;
-font-size: 1rem;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+.light-text {
+  color: #606060;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
-.dark-text{
-    color: #141E0D;
-    font-size: 1.125rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;  
+.dark-text {
+  color: #141e0d;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }

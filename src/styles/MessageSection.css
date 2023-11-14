@@ -1,10 +1,10 @@
-input{
-    outline: none;
-    font-size: 0.875rem;
-font-style: normal;
-font-weight: 400;
-color: #2e2e2e;
+input {
+  outline: none;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  color: #2e2e2e;
 }
-.input-div{
-    min-width: 80%;
+.input-div {
+  min-width: 80%;
 }
