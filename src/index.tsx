@@ -4,14 +4,19 @@ import './index.css';
 import App from './App';
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import reportWebVitals from './reportWebVitals';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
+import { ChakraProvider } from '@chakra-ui/react'
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
+  <ChakraProvider resetCSS={false}>
   <React.StrictMode>
     <App />
   </React.StrictMode>
+  </ChakraProvider>
 );
 
 // If you want your app to work offline and load faster, you can change
