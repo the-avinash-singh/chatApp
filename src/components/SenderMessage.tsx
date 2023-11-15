@@ -7,7 +7,7 @@ export default function Sender({data}) {
   return (
     <div className="d-flex">
       <div className="ms-2">
-        <img src={data.sender.image} className="rounded-circle image"/>
+        <img src={data.sender.image} className="rounded-circle image" alt=""/>
         {data.sender.is_kyc_verified
 ?<div className="position-relative">
         <span className="position-absolute position-badg translate-middle badge">
