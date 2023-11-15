@@ -10,11 +10,11 @@ const MessageSection = () => {
         <input
           type="text"
           className=" border-0 py-2 mx-2 input-div"
-          placeholder="Reply to @Rohit Yadav"
+          placeholder="Message"
         />
         <div className="py-2 d-flex justify-content-between">
           <Attachment />
-          <img src={send} alt="" className="pe-1 pe-md-2" />
+          <img src={send} alt="" className="pe-1 ps-md-4 pe-md-2" />
         </div>
       </div>
     </div>

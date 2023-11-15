@@ -1,3 +1,4 @@
+//@ts-nocheck
 import React from 'react'
 import "../styles/headersection.css"
 import back from "../assets/Back.svg"
@@ -8,14 +9,15 @@ import chat3 from "../assets/chatimg3.png"
 import chat4 from "../assets/chatimg4.png"
 import edit from "../assets/edit.svg"
 
-const HeaderSection = () => {
+const HeaderSection = (data) => {
+  
   return (
     <div className='border-bottom sticky-top bg-chat'>
     <div className=' mx-3 pt-5'>
       <div className='d-flex justify-content-between'>
         <div className='d-flex text-nowrap justify-content-start'>
       <img src={back} alt="back" className='pe-3 mb-3' />
-      <div className='trip'>Trip 1</div>
+      <div className='trip'>{data.name}</div>
         </div>
       <div>
         <img src={edit} alt=""/>
@@ -30,10 +32,10 @@ const HeaderSection = () => {
         </div>
         <div>
         <div>
-            <span className='light-text'>From</span> <span className='dark-text'>IGI Airport,T3</span>
+            <span className='light-text'>From</span> <span className='dark-text'>{data.from}</span>
         </div>
         <div className='text-start'>
-            <span className='light-text'>To</span> <span className='dark-text'>Sector 28</span>
+            <span className='light-text'>To</span> <span className='dark-text'>{data.to}</span>
         </div>
         </div>
         <div className='mt-auto mb-auto ms-auto'>
