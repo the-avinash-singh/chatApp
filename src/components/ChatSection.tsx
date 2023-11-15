@@ -29,7 +29,6 @@ const ChatSection = ({ chatData }) => {
 
   return (
     <div className="chat-div">
-    
       <InfiniteScroll
         dataLength={chatsData.length}
         next={infiniteApi}
