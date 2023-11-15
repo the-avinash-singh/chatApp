@@ -20,7 +20,7 @@ const HeaderSection = (data) => {
       <div className='trip'>{data.name}</div>
         </div>
       <div>
-        <img src={edit} alt=""/>
+        <img src={edit} className='me-1' alt=""/>
       </div>
         </div>
       <div className='d-flex justify-content-start'>
