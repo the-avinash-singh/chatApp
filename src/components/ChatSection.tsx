@@ -6,7 +6,6 @@ import Reciver from "./ReciverMessage";
 import { fetchMoreData } from "../Apis/chatapi";
 import InfiniteScroll from "react-infinite-scroll-component";
 import Loader from "../utils/Loader";
-import Timecomponent from "./Timecomponent";
 
 const ChatSection = ({ chatData }) => {
 
@@ -30,7 +29,6 @@ const ChatSection = ({ chatData }) => {
 
   return (
     <div className="chat-div">
-      {/* <Timecomponent chatData={data}/> */}
       <InfiniteScroll
         dataLength={chatsData.length}
         next={infiniteApi}
