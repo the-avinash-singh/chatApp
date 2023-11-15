@@ -5,7 +5,7 @@ import Attachment from "../utils/Attachment";
 
 const MessageSection = () => {
   return (
-    <div className="pt-4 pb-5 sticky-bottom bg-chat">
+    <div className="pt-3 pb-5 sticky-bottom bg-chat mx-auto custom-width">
       <div className="mx-3 bg-white d-flex  justify-content-between rounded-2">
         <input
           type="text"

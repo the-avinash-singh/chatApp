@@ -27,12 +27,12 @@ useEffect( () =>{
 
   return (
     
-    <div className="App">
+    <div className="App d-flex flex-column h-100">
       <HeaderSection from={chats.from} to={chats.to} name={chats.name}/>
       <ChatSection chatData={chatData}/>
-      <MessageSection/>
+        <MessageSection/>
     </div>
-    
+
   );
 }
 

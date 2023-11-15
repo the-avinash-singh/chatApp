@@ -12,7 +12,7 @@ const ChatSection = ({ chatData }) => {
   const [page, setPage] = React.useState(0);
 
   const [chatsData, setChatData] = React.useState([]);
-  
+
   const infiniteApi = async () => {
     const data = await fetchMoreData(page + 1);
     setChatData(chatsData.concat(data.chats));
@@ -39,12 +39,12 @@ const ChatSection = ({ chatData }) => {
         hasMore={true}
         loader={<Loader />}
       >
-        <div className="d-flex flex-column gap">
+        <div className="d-flex flex-column gap mx-auto px-3 custom-width">
           {chatsData?.map((data, index) => {
             return (
               <div key={index} className="d-flex flex-column gap">
-                <Sender />
-                <Reciver />
+                {data.sender.self?<Reciver data={data} />
+                :<Sender data={data}/>}
               </div>
             );
           })}

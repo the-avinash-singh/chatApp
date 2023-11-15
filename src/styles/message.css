@@ -16,7 +16,15 @@ box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.08);
 width: fit-content;
 max-width: 75%;
 }
+.image{
+  width: 1.625rem;
+height: 1.625rem;
+}
+.verify-image{
+  width: 0.7rem;
+height: 0.7rem;
+}
 .position-badg{
-  left: 20px;
-  top: -4px;
+  left: 22px;
+  top: -6px;
 }

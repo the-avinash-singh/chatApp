@@ -13,7 +13,7 @@ const HeaderSection = (data) => {
   
   return (
     <div className='border-bottom sticky-top bg-chat'>
-    <div className=' mx-3 pt-5'>
+    <div className=' mx-3 pt-5 mx-auto custom-width'>
       <div className='d-flex justify-content-between'>
         <div className='d-flex text-nowrap justify-content-start'>
       <img src={back} alt="back" className='pe-3 mb-3' />
@@ -31,7 +31,7 @@ const HeaderSection = (data) => {
             <img src={chat4} alt="4" className='chatimg4'/>
         </div>
         <div>
-        <div>
+        <div className='text-start'>
             <span className='light-text'>From</span> <span className='dark-text'>{data.from}</span>
         </div>
         <div className='text-start'>

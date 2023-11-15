@@ -7,4 +7,12 @@
 }
 .cursor-pointer{
   cursor: pointer;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width:500px){.custom-width{
+width: 60%;
+}}
+::-webkit-scrollbar {
+  display: none;
 }
