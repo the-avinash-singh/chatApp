@@ -20,8 +20,9 @@ const ChatSection = ({ chatingData }) => {
       
   };
   
+const count=3
   useEffect(() => {
-if(page===0){
+if(count<=0){
     div1.current.scrollIntoView({ block: "end" })
 }
   });
