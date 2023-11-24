@@ -21,8 +21,10 @@ const ChatSection = ({ chatingData }) => {
   };
   
   useEffect(() => {
+if(page===0){
     div1.current.scrollIntoView({ block: "end" })
-  },[chatingData]);
+}
+  });
   
   return (
     <div className="chat-div" >
