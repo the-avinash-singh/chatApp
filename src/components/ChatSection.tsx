@@ -12,8 +12,6 @@ const ChatSection = ({ chatingData }) => {
   const [page, setPage] = React.useState(0);
 
   const [chatsData, setChatData] = React.useState([]);
-  
-  const scroll=useRef(null)
   const div1=useRef(null)
   const infiniteApi = async () => {
     const data = await fetchMoreData(page+1);
